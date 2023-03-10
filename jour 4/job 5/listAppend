@@ -1,0 +1,13 @@
+L = [7, 13, 21, 34, 55]
+print(L[1])
+
+
+def replace_with_sum_of_neighbors(lst):
+    lst[3] = lst[2] + lst[4]
+    print(L)
+replace_with_sum_of_neighbors(L)
+
+print(L[-1])
+
+
+
